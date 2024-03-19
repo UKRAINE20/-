@@ -1,0 +1,22 @@
+#include <iostream>
+
+void greet() {
+    cout << "Hello, ";
+}
+
+void farewell() {
+    cout << "Goodbye!" << endl;
+}
+
+int main() {
+    
+    greet();
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Welcome, " << name << "!" << endl;
+
+    farewell();
+
+    return 0;
+}
